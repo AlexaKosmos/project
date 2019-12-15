@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="navbar-desktop">
+          <ul>
+            <li><a href="index.html" class="logo-box"><img src="images/logo.png" alt="logo" class="logo"  style="width: 250px;"></a></li>
+          </ul>
+          <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="shop.html"><i class="fas fa-store"></i></a></li>
+            <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">Events</a>
+                  <div class="dropdown-content">
+                    <a href="Trainings.html">Trainings</a>
+                    <a href="Work.html">Work</a>
+                    <a href="Entertainment.html">Entertainments</a>
+                  </div>
+              </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn"><i class="far fa-life-ring"></i></a>
+              <div class="dropdown-content">
+                <a href="Money-support.html">Support with money</a>
+                <a href="Things-support.html">Support with things</a>
+                <a href="Volunteer.html">What be a volunteer  </a>
+              </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="bonuses.html"><i class="fas fa-coins"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-mobile">
+          <ul>
+            <li><a href="index.html"><img src="images/logo.png" alt="logo" class="logo" style="max-width: 200px;"></a></li>
+            <li id="burger-button">
+              <!-- <i class="fas fa-bars"></i> -->
+              <section>
+                <a href="#" class="menu-trigger" id="menu12">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
+              </section>
+            </li>
+          </ul>
+        </div>
+      <div id="burger-menu" class="display-none">
+          <ul>
+              <li><a href="index.html">Main</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="bonuses.html">Bonuses</a></li>
+              <li><a href="shop.html">Shop</a></li>
+                  <div class="accordion" id="accordion">
+                            <div id="headingOne" class="hover-color">
+                                <a class="collapsed"  data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
+                                  Support
+                                </a>
+                            </div>
+                        <div id="collapseOne" class="collapse  flex-column" aria-labelledby="headingOne" data-parent="#accordion">
+                              <a href="Money-support.html">Support with money</a>
+                              <a href="Things-support.html">Support with things</a>
+                              <a href="Volunteer.html">What be a volunteer  </a>
+                        </div>
+                        <div id="headingTwo" class="hover-color">
+                            <a class="collapsed"  data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo">
+                              Events
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <a href="Trainings.html">Trainings</a>
+                              <a href="Work.html">Work</a>
+                              <a href="Entertainment.html">Entertainments</a>
+                        </div>
+                  </div>
+            </ul>
+      </div>
+    <div class="container trainings-container">
+        <h1 class="text-center">Trainings</h1>
+        <div class="row">
+            <div class="col-md-6 col-12">
+              <img width="100%" src="images/pexels-photo-3321794.jpeg" alt="" />
+            </div>
+            <div class="col-md-6 col-12">
+                <h2 >Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                maxime ratione minus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis error repudiandae aliquid sed eaque eum blanditiis! Voluptates illo incidunt quaerat?
+              </p>
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-md-6 col-12 ">
+              <h2 >Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                maxime ratione minus!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, corrupti. Repellat, perspiciatis saepe pariatur consectetur dolores impedit ipsam reprehenderit ducimus!
+              </p>
+              <a href="contact.html">Contact us</a>
+            </div>
+      
+            <div class="col-md-6 col-12">
+              <img width="100%"  src="images/pexels-photo-1181395.jpeg" alt="" />
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img width="100%" src="images/pexels-photo-1709003.jpeg" alt="" />
+            </div>
+            <div class="col-md-6 col-12">
+              <h2 >Lorem, ipsum dolor.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+                maxime ratione minus!
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum fugiat beatae cum, rem ipsum molestiae iste rerum autem reiciendis tempore et, illo maxime labore, fuga est quo dolorum quas temporibus!
+              </p>
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+    </div>
+    <div class="colored-box">
+        <div class="footer container d-flex justify-content-center flex-column" id="contacts">
+                <h2 class="text-center">Get in touch</h2>
+                <p class="text-center">Want to know more or just chat? You are welcome!</p>
+                <p class="text-center button"><a href="contact.html">Send message</a></p>
+                <div class=" row">
+                    <div class="col-2"></div>
+                    <div class="col-2  d-flex justify-content-center">
+                        <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center">
+                        <a href="#">
+                                <i class="fab fa-instagram"></i>           
+                        </a>
+                    </div>
+                    <div class="col-2  d-flex justify-content-center">
+                        <a href="#">
+                                <i class="fab fa-telegram-plane"></i>            
+                        </a>
+                    </div>
+                    <div class="col-2  d-flex justify-content-center">
+                        <a href="#">
+                                <i class="fab fa-twitter-square"></i>       
+                        </a>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <p class="text-center copyright"> Like us on Facebook, Instagram, Twitter</p>
+</div>
+    
+  </body>
+  <script>
+      var button = document.getElementById("menu12");
+      button.addEventListener("click", function() {
+        button.classList.toggle("active");
+        return false;
+      });
+    </script>
+    <script>
+            var element = document.getElementById('burger-button');
+            var block = document.getElementById('burger-menu');
+            element.addEventListener('click', function(){
+             console.log(element)
+             block.classList.toggle('display-none');
+             return false;
+            })
+            </script>
+    <script src="https://kit.fontawesome.com/8f23a73a07.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+</html>
